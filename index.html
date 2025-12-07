@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – Falaknaaz Mujawar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-btn">🌙</button>
+                <a href="#contact" class="cta-btn">Let's Talk</a>
+            </div>
+
+            <div class="mobile-menu-icon" id="mobile-menu">☰</div>
+        </nav>
+    </header>
+
+    <!-- =========== MOBILE DROPDOWN ========== -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About Me</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+    <!-- ================= LEFT PROFILE CARD ================= -->
+    <aside class="profile-card">
+        <!-- apna photo yaha daal sakti ho -->
+        <!-- <img src="img/avatar.jpg" class="avatar" alt="Falaknaaz portrait"> -->
+       <div class="avatar-orb">
+  <span>F</span>
+</div>
+
+
+        <div class="profile-text">
+            <h2 class="name">Falaknaaz Mujawar</h2>
+            <p class="role">Frontend learner & creative web enthusiast</p>
+            <p class="location">Mumbai, Maharashtra</p>
+
+           <div class="socials">
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/falak-mujawar" target="_blank">
+    <i class="ri-linkedin-box-fill"></i>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/falak-CARPEDIEM" target="_blank">
+    <i class="ri-github-fill"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:falakmujawar10@gmail.com">
+    <i class="ri-mail-line"></i>
+  </a>
+
+  <!-- Resume (jab file ready ho) -->
+  <a href="Falaknaaz Rafique Mujawar RESUME (2).pdf" target="_blank">
+    <i class="ri-profile-line"></i>
+  </a>
+
+  <!-- WhatsApp (jab chahe use karna) -->
+  <a href="https://wa.me/917304693719" target="_blank">
+    <i class="ri-whatsapp-fill"></i>
+  </a>
+</div>
+
+
+        <a href="#contact" class="work-btn">Let’s Work Together</a>
+    </aside>
+
+
+    <!-- ================= HOME / HERO ================= -->
+    <section class="hero" id="home">
+        <p class="hero-top">Let's meet!</p>
+
+        <h1 class="hero-title">I’m <span>Falaknaaz Mujawar</span></h1>
+        <h2 class="hero-sub">
+            Crafting digital stories and shaping ideas into beautiful web experiences.
+        </h2>
+
+        <div class="hero-buttons">
+            <a href="#portfolio" class="btn-primary">My Works</a>
+           <a href="Falaknaaz Rafique Mujawar RESUME (2).pdf" class="btn-outline" download>
+  Download CV <i class="ri-download-line"></i>
+</a>
+        </div>
+
+        <div class="hero-glow"></div>
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section class="about" id="about">
+        <h2 class="section-title">Turning complex ideas into simple, calm interfaces.</h2>
+
+        <p class="about-text">
+            Hi, I’m Falaknaaz — a curious digital creator exploring the world of web development
+            and modern design. I love building clean, meaningful interfaces that feel smooth,
+            expressive and alive. Every new project is a chance for me to learn, experiment and
+            turn ideas into thoughtful digital experiences. I may be at the beginning of my journey,
+            but I’m driven by creativity, patience and the desire to grow with every line of code.
+        </p>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>4+</h3>
+                <p>Hands‑on web projects</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>1</h3>
+                <p>Web development internship</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>1</h3>
+                <p>Community‑focused case study</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= PORTFOLIO / MY WORKS ================= -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-title">Selected Work</h2>
+
+        <div class="portfolio-grid">
+            <!-- PRODIGY TASK 1 -->
+            <div class="project-card">
+                <img src="img/work1.jpg" alt="Landing page preview">
+                <h3>Responsive Landing Page</h3>
+                <p>
+                    A clean, responsive landing page built with modern layout, typography and
+                    a smooth scrolling experience.
+                </p>
+                <button class="view-btn">HTML · CSS</button>
+            </div>
+
+            <!-- PRODIGY TASK 2 -->
+            <div class="project-card">
+                <img src="img/work2.jpg" alt="Stopwatch app preview">
+                <h3>Stopwatch Web App</h3>
+                <p>
+                    Minimal stopwatch interface with start, stop and reset controls, designed
+                    to feel focused and calm on any device.
+                </p>
+                <button class="view-btn">HTML · CSS · JS</button>
+            </div>
+
+            <!-- PRODIGY TASK 3 -->
+            <div class="project-card">
+                <img src="img/work3.jpg" alt="Tic Tac Toe game preview">
+                <h3>Tic‑Tac‑Toe – Player & AI Mode</h3>
+                <p>
+                    A playful Tic‑Tac‑Toe game with Player vs Player and Player vs Computer modes,
+                    smooth transitions and animated winning states.
+                </p>
+                <button class="view-btn">HTML · CSS · JS</button>
+            </div>
+
+            <!-- STREET VENDORS PROJECT -->
+            <div class="project-card">
+                <img src="img/work4.jpg" alt="Street vendors project preview">
+                <h3>Street Vendors & Cashless Economy</h3>
+                <p>
+                    A small but meaningful concept designed to help local vendors in Mira‑Bhayandar
+                    feel safer and more confident using cashless payments.
+                </p>
+                <button class="view-btn">
+                    Helping local vendors move toward a safer, confident cashless future.
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= RESUME SECTION ================= -->
+    <section class="resume" id="resume">
+        <h2 class="section-title">Education & Experience</h2>
+
+        <div class="resume-cols">
+            <div class="resume-col">
+                <h3>Education</h3>
+
+                <div class="resume-item">
+                    <h4>B.Tech in Information Technology</h4>
+                    <span>2024 – 2028 · Shree L.R. Tiwari College of Engineering, Mumbai</span>
+                </div>
+            </div>
+
+            <div class="resume-col">
+                <h3>Experience</h3>
+
+                <div class="resume-item">
+                    <h4>Web Development Intern – Prodigy InfoTech</h4>
+                    <span>
+                        Worked on responsive landing pages, a stopwatch app, Tic‑Tac‑Toe game
+                        and this portfolio, focusing on clean UI and JavaScript logic.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Let’s make something awesome together.</h2>
+
+        <div class="contact-wrapper">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name*" required>
+                <input type="email" placeholder="Email Address*" required>
+                <textarea placeholder="A Few Words*" required></textarea>
+                <button class="send-btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> falakmujawar10@gmail.com</p>
+                <p><strong>Phone:</strong> 7304693719</p>
+                <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GLOBAL NEXT SECTION BUTTON -->
+    <button class="scroll-hint" id="next-section">
+        next
+    </button>
+
+</body>
+</html>
