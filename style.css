@@ -517,6 +517,49 @@ body.light-theme .stat-card {
   font-size: 0.9rem;
   color: var(--txt-muted);
 }
+.skills-section {
+  padding: 5rem 0;
+}
+.skills-section {
+  padding-top: 8rem;  /* yeh overlap ko hata deta hai */
+}
+
+
+.skills-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.2rem;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.4rem 1rem;
+  border-radius: 16px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+
+.skill-card i {
+  font-size: 40px;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 22px rgba(190, 67, 245, 0.4);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.skills-section .section-title {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 
 /* ---------- PORTFOLIO ---------- */
 
@@ -820,3 +863,84 @@ body.light-theme .scroll-hint {
     margin-top: 4.4rem;
   }
 }
+.profile-card {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* jab body pe class lagegi to profile card gayab */
+body.hide-profile .profile-card {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-20px);
+}
+.profile-card {
+  position: fixed;
+  top: 72px;
+  left: 1.4rem;
+  width: 280px;
+  /* baaki jo tumhare pass tha woh same rehne do */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* jab body pe hide-profile lage → card gayab */
+body.hide-profile .profile-card {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-20px);
+}
+
+/* skills section layout */
+.skills-section {
+  max-width: 900px;
+  margin-left: 330px;
+  padding: 4.8rem 1.4rem 0;
+  padding-top: 9rem;           /* extra space so overlap na ho */
+  border-top: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+body.light-theme .skills-section {
+  border-top-color: rgba(209, 213, 219, 0.8);
+}
+
+.skills-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.2rem;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.4rem 1rem;
+  border-radius: 16px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+
+.skill-card i {
+  font-size: 40px;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.skill-card span {
+  font-size: 0.9rem;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 22px rgba(190, 67, 245, 0.4);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* responsive me left card nahi hoga, to margin-left hata dena */
+@media (max-width: 960px) {
+  .skills-section {
+    margin-left: 0;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+}
+

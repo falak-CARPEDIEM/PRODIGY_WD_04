@@ -95,12 +95,15 @@ if (nextBtn && allSections.length) {
 }
 
 // SCROLL REVEAL ANIMATIONS
+// SCROLL REVEAL ANIMATIONS + HIDE PROFILE ON SKILLS
+// SCROLL REVEAL ANIMATIONS + HIDE PROFILE ON SKILLS
 const revealTargets = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   const selectors = [
     ".hero",
     ".about",
+    ".skills-section",
     ".portfolio",
     ".resume",
     ".contact",
@@ -110,6 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ".profile-card"
   ];
 
+  // scroll reveal
   selectors.forEach((sel) => {
     document.querySelectorAll(sel).forEach((el) => {
       el.classList.add("reveal");
@@ -130,4 +134,25 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   revealTargets.forEach((el) => observer.observe(el));
+
+  // ---- HIDE PROFILE WHEN SKILLS IN VIEW ----
+  const skillsSection = document.getElementById("skills");
+  const profileCard = document.querySelector(".profile-card");
+
+  if (skillsSection && profileCard) {
+    const hideObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            document.body.classList.add("hide-profile");
+          } else {
+            document.body.classList.remove("hide-profile");
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+
+    hideObserver.observe(skillsSection);
+  }
 });
