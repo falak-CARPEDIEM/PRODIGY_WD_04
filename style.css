@@ -892,9 +892,9 @@ body.hide-profile .profile-card {
 /* skills section layout */
 .skills-section {
   max-width: 900px;
-  margin-left: 330px;
-  padding: 4.8rem 1.4rem 0;
-  padding-top: 9rem;           /* extra space so overlap na ho */
+  margin: 0 auto;
+  padding: 6rem 1.4rem 0;
+  padding-top: 4rem;           /* extra space so overlap na ho */
   border-top: 1px solid rgba(148, 163, 184, 0.35);
 }
 
