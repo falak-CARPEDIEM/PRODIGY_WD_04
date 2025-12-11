@@ -12,6 +12,10 @@ function setTheme(theme) {
   }
   localStorage.setItem("portfolio-theme", theme);
 }
+// small helper to open demo safely
+function openDemoInNewTab(url) {
+  window.open(url, "_blank", "noopener");
+}
 
 // initial theme from localStorage
 const savedTheme = localStorage.getItem("portfolio-theme");
