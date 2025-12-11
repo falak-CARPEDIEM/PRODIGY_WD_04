@@ -1,103 +1,56 @@
-🌐 Falaknaaz Mujawar – Personal Portfolio
-A clean, modern & responsive portfolio designed to present my skills, projects and journey as a frontend developer.
+# 🌐 Personal Portfolio – Falaknaaz Mujawar
 
-✨ About This Portfolio
-This is my personal web portfolio built to showcase my projects, design style and learning journey.
-The UI focuses on calm gradients, smooth animations, modern typography and a minimal layout — giving it a premium, futuristic look.
+A modern, clean and fully responsive personal portfolio website built as part of my
+Web Development journey.  
+Showcasing my skills, projects, creativity, and passion for frontend development.
 
-The website includes:
+## 🚀 Features
+- Elegant dark & light theme toggle  
+- Smooth animations and scroll reveal effects  
+- Fully responsive layout  
+- Modern UI with glassmorphism aesthetics  
+- Organized sections – Home, About, Skills, Portfolio, Resume, Contact  
 
-🔹Beautiful hero section
+## 🧩 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Remix Icons**
+- **Google Fonts – Inter**
 
-🔹About me
+## 🎯 Projects Included
+- Responsive Landing Page  
+- Stopwatch Web App  
+- Tic-Tac-Toe (Player & AI Mode)  
+- Weather Forecast App  
+- Street Vendors & Cashless Economy – Case Study  
 
-🔹Skills overview
+## 📂 Folder Structure
+PRODIGY_WD_04/
 
-🔹Project portfolio
+│── index.html
 
-🔹Resume section
+│── style.css
 
-🔹Contact form
+│── script.js
 
-🔹Light / Dark theme toggle
+│── landing-page-mockup.png
 
-🔹Smooth scroll + reveal animations
+│── stopwatch-app-illustration.png
 
-🔹Mobile‑responsive design
+│── tic-tac-toe-illustration.png
 
+│── weather-app-preview.png
 
-🚀 Tech Stack
-Frontend:
+│── street-vendors-cashless-illustration.png
 
-🔹HTML5
+## 🔗 Live Website  
+👉 https://falak-carpediem.github.io/PRODIGY_WD_04/
+## 📬 Contact
+**Falaknaaz Mujawar**  
+📧 falakmujawar10@gmail.com  
+🌍 Mumbai, Maharashtra  
 
-🔹CSS3 (modern UI, gradients, glass effects)
+---
 
-🔹JavaScript (scroll animations, theme toggle, interactions)
-
-Tools:
-
-🔹VS Code
-
-🔹Git & GitHub
-
-🔹Remix Icons
-
-🔹Google Fonts (Inter)
-
-💼 Featured Projects:
-
-🔹 Responsive Landing Page
-A clean landing page designed with modern spacing, soft gradients and responsive layouts.
-Tech: HTML · CSS
-
-🔹 Stopwatch Web App
-Minimal stopwatch with start/stop/reset and smooth UI animations.
-Tech: HTML · CSS · JS
-
-🔹 Tic‑Tac‑Toe (Player vs Player + AI)
-A playful game with animations, scoreboard and AI mode.
-Tech: HTML · CSS · JS
-
-🔹 Weather Forecast Web App
-A sleek weather UI showing real‑time temperature, humidity, wind speed and icons.
-Tech: HTML · CSS · JS
-
-🔹 Street Vendors & Cashless Economy (Case Study)
-A meaningful concept aiming to help local vendors adopt cashless payments for safer transactions.
-Tech: Research · UI Concept · Web Layout
-
-🎨 Design Philosophy
-I follow a soft aesthetic approach:
-
-✔ minimal noise
-
-✔ calm gradients
-
-✔ balanced whitespace
-
-✔ gentle shadows
-
-✔ round edges
-
-✔ smooth animations
-
-The goal is to create interfaces that feel warm, simple and thoughtful.
-
-📄 Resume
-You can view or download my resume directly from the website.
-I’ve included education, experience and highlights from my internship journey.
-
-📬 Contact
-Want to collaborate or connect?
-
-Email: falakmujawar10@gmail.com
-LinkedIn: https://www.linkedin.com/in/falak-mujawar
-GitHub: https://github.com/falak-CARPEDIEM
-
-🌟 Live Portfolio
-👉 Live Demo: coming soon
-
-Thank You! 
-This portfolio will keep evolving as I learn new skills and build more projects.
-Feel free to ⭐ the repository if you like the design!
+⭐ *Thank you for visiting my portfolio!*
